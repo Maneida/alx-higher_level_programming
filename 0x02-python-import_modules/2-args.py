@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-import sys
 
 if __name__ == "__main__":
+    import sys
     if int(len(sys.argv)) == 1:
         str_end = '.'
     else:
