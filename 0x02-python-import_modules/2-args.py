@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-'''if __name__ == "__main__":
+if __name__ == "__main__":
     from sys import argv
     if int(len(argv)) == 1:
         str_end = '.'
@@ -15,7 +15,7 @@
     print("{:d} {:s}{:s}".format(int(len(argv)) - 1, arg_string, str_end))
 
     for i in range(1, len(argv)):
-        print("{:d}: {:s}".format(i, argv[i]))'''
+        print("{:d}: {:s}".format(i, argv[i]))
 
 '''if __name__ == "__main__":
     from sys import argv
@@ -28,7 +28,7 @@
     for idx, arg in enumerate(userin):
         print("{:d}: {:s}".format(idx + 1, arg))'''
 
-if __name__ == "__main__":
+'''if __name__ == "__main__":
     """Print the number of and list of arguments."""
     import sys
 
@@ -40,4 +40,4 @@ if __name__ == "__main__":
     else:
         print("{} arguments:".format(count))
     for i in range(count):
-        print("{}: {}".format(i + 1, sys.argv[i + 1]))
+        print("{}: {}".format(i + 1, sys.argv[i + 1]))'''
