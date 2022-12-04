@@ -2,7 +2,7 @@
 def no_c(my_string):
     if my_string is not None:
         for i in my_string:
-            if i == 'c' or 'C':
+            if i == 'c' and 'C':
                 i = ''
 
 
