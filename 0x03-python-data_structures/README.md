@@ -14,5 +14,5 @@
 |`10-divisible_by_2.py`| |
 |`11-delete_at.py`| |
 |`12-switch.py`| |
-|`13-is_palindrome.c`| |
+|`13-is_palindrome.c`| Redo later|
 |`lists.h`| |
