@@ -3,7 +3,7 @@ def no_c(my_string):
     if my_string is not None:
         for i in my_string:
             if i == 'c' or 'C':
-                i = ' '
+                i = ''
 
 
 if __name__ == "__main__":
