@@ -9,4 +9,4 @@ def safe_print_integer(value):
             return (False)
 
     except Exception as e:
-        print(e)
+        pass
