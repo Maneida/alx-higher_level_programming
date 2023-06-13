@@ -1,5 +1,5 @@
 #!/usr/bin/node
-let myObject = {
+const myObject = {
   type: 'object',
   value: 12
 };
@@ -12,8 +12,8 @@ adding line below prints as a result:
 { type: 'object', value: 14, incr: [Function] }
 { type: 'object', value: 15, incr: [Function] }
 */
-myObject.incr = function() {
-	  this.value++;
+myObject.incr = function () {
+  this.value++;
 };
 
 myObject.incr();
