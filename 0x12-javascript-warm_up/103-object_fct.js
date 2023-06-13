@@ -12,7 +12,9 @@ adding line below prints as a result:
 { type: 'object', value: 14, incr: [Function] }
 { type: 'object', value: 15, incr: [Function] }
 */
-myObject.incr = function () { this.value += 1; };
+myObject.incr = function() {
+	  this.value++;
+};
 
 myObject.incr();
 console.log(myObject);
