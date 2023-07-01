@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-with the given repo and owner name as argvs, 
+with the given repo and owner name as argvs,
 use Github API to list last 10 commits
 usage: ./100-github_commits.py [github_repo] [github_owner]
 """
