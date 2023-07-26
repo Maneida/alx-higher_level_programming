@@ -20,6 +20,6 @@ request(url, function (err, response, body) {
     }
     console.log(dic);
   } else {
-    console.log('Error code: ' + response.statusCode);
+    console.log('Error code:', response.statusCode);
   }
 });
